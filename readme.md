@@ -7,6 +7,8 @@ this walks a path or paths, finds all of the git repositories, and their origins
 
 ## example
 
+callback style
+
 ```js
 
 var findrepos = require('find-git-repos');
@@ -15,7 +17,11 @@ findrepos('../',function(err,repos){
   console.log('all of my repos! ',repos);
 });
 
+```
 
+event emitter style
+
+```js
 // with event emitter
 
 var em = findrepos('../../');
