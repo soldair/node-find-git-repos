@@ -1,0 +1,24 @@
+{
+  "author": "Ryan Day <soldair@gmail.com>",
+  "name": "find-git-repos",
+  "description": "this walks a path or paths, finds all of the git repositories, and their origins",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/node-find-git-repos.git"
+  },
+  "main": "findrepos.js",
+  "dependencies": {
+    "walkdir":"~0.0.4"
+  },
+  "devDependencies": {
+    "tap":"*"
+  },
+  "scripts":{
+    "test":"./node_modules/tap/bin/tap.js ./test"
+  },
+  "optionalDependencies": {}, 
+  "engines": {
+    "node": "*"
+  }
+}
